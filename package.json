@@ -1,0 +1,20 @@
+{
+  "name": "grovebasehat",
+  "version": "1.0.0",
+  "description": "Driver for Seeed Grove Base-HAT for Raspberry Pi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fingerskier/grovebasehat.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fingerskier/grovebasehat/issues"
+  },
+  "homepage": "https://github.com/fingerskier/grovebasehat#readme"
+}
