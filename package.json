@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/fingerskier/grovebasehat/issues"
   },
-  "homepage": "https://github.com/fingerskier/grovebasehat#readme"
+  "homepage": "https://github.com/fingerskier/grovebasehat#readme",
+  "dependencies": {
+    "async": "^3.2.0",
+    "i2c-bus": "^5.2.2",
+    "npmlog": "^5.0.0",
+    "sleep": "^6.3.0"
+  }
 }
