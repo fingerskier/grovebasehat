@@ -43,10 +43,14 @@ DustDigitalSensor.prototype.disable = function () {
 }
 
 DustDigitalSensor.prototype.start = function () {
+	try {
     if (!this.enable())
         throw new Error('cannot enable dust sensor')
     this.enable()
     setInterval(loop.bind(this), 30 * 1000) //every 30 seconds
+	} catch(error) {
+		console.error(error)
+	}
 }
 
 DustDigitalSensor.prototype.stop = function () {
